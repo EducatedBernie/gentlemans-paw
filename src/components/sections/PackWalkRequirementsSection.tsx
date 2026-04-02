@@ -21,9 +21,9 @@ const requirements = [
     icon: "medical_services",
     title: "Spay / Neuter Policy",
     items: [
-      "We do allow unfixed dogs to join pack walks",
-      "Female dogs in heat cannot participate due to hormonal changes that disrupt pack stability",
-      "During that time, we offer drop-in visits until your dog can rejoin",
+      { text: "We do allow unfixed dogs to join pack walks", excluded: false },
+      { text: "Female dogs in heat cannot participate due to hormonal changes that disrupt pack stability", excluded: true },
+      { text: "During that time, we offer drop-in visits until your dog can rejoin", excluded: false },
     ],
   },
   {
@@ -75,17 +75,21 @@ export default function PackWalkRequirementsSection() {
                 {req.title}
               </h3>
               <ul className="space-y-2">
-                {req.items.map((item, i) => (
-                  <li
-                    key={i}
-                    className="text-[#F9F6F0]/60 text-sm leading-relaxed flex items-start gap-2"
-                  >
-                    <span className="material-symbols-outlined text-[#C5A059] text-base mt-0.5 shrink-0">
-                      check
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
+                {req.items.map((item, i) => {
+                  const text = typeof item === "string" ? item : item.text;
+                  const excluded = typeof item === "string" ? false : item.excluded;
+                  return (
+                    <li
+                      key={i}
+                      className="text-[#F9F6F0]/60 text-sm leading-relaxed flex items-start gap-2"
+                    >
+                      <span className={`material-symbols-outlined text-base mt-0.5 shrink-0 ${excluded ? "text-red-400" : "text-[#C5A059]"}`}>
+                        {excluded ? "close" : "check"}
+                      </span>
+                      <span>{text}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

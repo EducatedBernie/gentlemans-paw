@@ -1,13 +1,18 @@
+import Image from "next/image";
+
 export default function DogTrainingSection() {
   return (
     <section id="dog-training" className="scroll-mt-16 px-6 md:px-16 lg:px-24 py-24 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left: Placeholder Image */}
         <div className="flex justify-center lg:justify-start">
-          <div className="w-full aspect-[4/5] rounded-2xl bg-[#e5e2dc] flex items-center justify-center">
-            <span className="material-symbols-outlined text-6xl text-[#1B3022]/20">
-              image
-            </span>
+          <div className="w-full aspect-[4/5] rounded-2xl overflow-hidden relative">
+            <Image
+              src="/images/training.png"
+              alt="1-on-1 dog training session"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
 

@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <SideNav />
 
-      <div className="md:ml-56 lg:ml-64">
+      <div className="md:ml-80 lg:ml-96">
         <main className="font-body bg-[#F9F6F0]">
           {/* ── Hero ── */}
           <section

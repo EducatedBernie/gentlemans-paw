@@ -70,7 +70,7 @@ export default function AboutSection() {
                 <h4 className="font-headline text-xl text-white mb-4">
                   {item.title}
                 </h4>
-                <p className="text-white/60 leading-relaxed text-sm">
+                <p className="text-white/70 leading-relaxed text-base">
                   {item.description}
                 </p>
               </div>
