@@ -18,7 +18,7 @@ export default function DogTrainingSection() {
 
         {/* Right Content */}
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-[#C5A059] mb-4">
+          <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4">
             Personalized Guidance
           </p>
           <h2 className="font-headline text-4xl md:text-5xl font-bold text-[#1B3022] leading-tight">

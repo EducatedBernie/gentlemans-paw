@@ -39,7 +39,7 @@ export default function PackWalksSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-[#C5A059] mb-4">
+            <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4">
               Our Signature Offering
             </p>
             <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold text-[#1B3022] leading-tight">
@@ -171,7 +171,7 @@ export default function PackWalksSection() {
       <div id="pricing" className="scroll-mt-16 px-6 md:px-16 lg:px-24 pb-24 max-w-7xl mx-auto">
         <div className="border-t border-[#e0ddd7] pt-16">
           <div className="mb-12">
-            <p className="text-sm font-semibold uppercase tracking-widest text-[#C5A059] mb-2">
+            <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-2">
               Choose Your Walk Pack &amp; Save
             </p>
             <h3 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-4">

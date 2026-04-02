@@ -51,7 +51,7 @@ export default function PackWalkRequirementsSection() {
   return (
     <section id="requirements" className="scroll-mt-16 bg-[#1B3022] py-24">
       <div className="px-6 md:px-16 lg:px-24 max-w-7xl mx-auto">
-        <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
+        <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
           Before You Join
         </p>
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#F9F6F0] mb-6">

@@ -70,7 +70,7 @@ export default function TeamSection() {
 
           {/* Right: Story Content */}
           <div className="flex flex-col justify-center">
-            <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
+            <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
               About the Founder
             </p>
             <h2 className="font-headline text-3xl md:text-4xl text-[#1B3022] mb-8">
@@ -117,7 +117,7 @@ export default function TeamSection() {
 
       {/* Team Grid */}
       <div className="px-6 md:px-16 lg:px-24 pb-24 max-w-7xl mx-auto">
-        <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
+        <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
           The Team
         </p>
         <h3 className="font-headline text-3xl md:text-4xl text-[#1B3022] mb-16">

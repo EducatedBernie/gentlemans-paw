@@ -2,7 +2,7 @@ export default function InHomeBoardingSection() {
   return (
     <section id="boarding" className="scroll-mt-16 bg-[#f0ede7] px-6 md:px-16 lg:px-24 py-24">
       <div className="max-w-7xl mx-auto">
-        <p className="text-sm font-semibold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
+        <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
           Extended Care
         </p>
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-6 text-center">
