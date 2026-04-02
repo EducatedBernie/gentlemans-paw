@@ -2,7 +2,7 @@ export default function PricingSection() {
   return (
     <section id="pricing" className="scroll-mt-16">
       <div className="px-6 md:px-16 lg:px-24 py-24 max-w-7xl mx-auto">
-        <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
+        <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
           Choose Your Walk Pack &amp; Save
         </p>
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-6 text-center">
@@ -201,7 +201,7 @@ export default function PricingSection() {
           <p className="text-sm text-[#333333]/60 mb-4">
             All bundles require payment upfront at time of order.
           </p>
-          <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-3">
+          <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-3">
             Payments Accepted
           </p>
           <div className="flex items-center justify-center gap-6 flex-wrap">

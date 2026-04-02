@@ -75,7 +75,7 @@ export default function FAQSection() {
   return (
     <section id="faq" className="scroll-mt-16 px-6 py-24">
       <div className="max-w-4xl mx-auto">
-        <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
+        <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-4 text-center">
           Concierge Support
         </p>
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] text-center mb-16">

@@ -39,7 +39,7 @@ export default function PackWalksSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div>
-            <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-4">
+            <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-4">
               Our Signature Offering
             </p>
             <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold text-[#1B3022] leading-tight">
@@ -171,7 +171,7 @@ export default function PackWalksSection() {
       <div id="pricing" className="scroll-mt-16 px-6 md:px-16 lg:px-24 pb-24 max-w-7xl mx-auto">
         <div className="border-t border-[#e0ddd7] pt-16">
           <div className="mb-12">
-            <p className="text-lg font-semibold uppercase tracking-widest text-[#C5A059] mb-2">
+            <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
               Choose Your Walk Pack &amp; Save
             </p>
             <h3 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-4">
@@ -187,7 +187,7 @@ export default function PackWalksSection() {
             <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#e0ddd7]">
               {/* Standard Pack */}
               <div className="p-8 lg:p-10 flex flex-col">
-                <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">
+                <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   Standard Pack
                 </p>
                 <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">
@@ -223,7 +223,7 @@ export default function PackWalksSection() {
 
               {/* Regular Pack */}
               <div className="p-8 lg:p-10 flex flex-col">
-                <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">
+                <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   Regular Pack
                 </p>
                 <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">
@@ -262,7 +262,7 @@ export default function PackWalksSection() {
                 <span className="absolute top-4 right-4 bg-[#C5A059] text-white text-sm font-bold uppercase tracking-wider px-4 py-1.5 rounded-full">
                   VIP
                 </span>
-                <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">
+                <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   VIP Elite Pack
                 </p>
                 <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">

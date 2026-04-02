@@ -30,7 +30,7 @@ export default function AboutSection() {
     <section id="about" className="scroll-mt-16">
       {/* Header */}
       <div className="px-6 md:px-16 lg:px-24 pt-24 pb-20 max-w-7xl mx-auto">
-        <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-6">
+        <p className="text-xl font-bold tracking-[0.2em] uppercase text-[#C5A059] mb-6">
           Our Story
         </p>
         <p className="text-xl md:text-2xl text-[#333333] leading-relaxed max-w-4xl">
@@ -46,7 +46,7 @@ export default function AboutSection() {
       {/* Why Pack Walks Work */}
       <div className="bg-[#F9F6F0] py-24">
         <div className="px-6 md:px-16 lg:px-24 max-w-7xl mx-auto">
-          <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
+          <p className="text-xl font-bold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
             Our Philosophy
           </p>
           <h3 className="font-headline text-3xl md:text-4xl text-[#1B3022] mb-6">
