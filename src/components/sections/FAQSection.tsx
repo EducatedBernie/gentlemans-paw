@@ -94,7 +94,7 @@ export default function FAQSection() {
                   expand_more
                 </span>
               </summary>
-              <div className="px-6 pb-6 text-[#1B3022] leading-relaxed">
+              <div className="px-6 pb-6 text-[#1B3022] leading-relaxed text-lg">
                 {faq.answer}
               </div>
             </details>
