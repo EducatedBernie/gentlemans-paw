@@ -8,7 +8,7 @@ export default function InHomeBoardingSection() {
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-6 text-center">
           In-Home Boarding &amp; More
         </h2>
-        <p className="text-lg text-[#333333]/70 leading-relaxed max-w-2xl mx-auto text-center mb-16">
+        <p className="text-lg text-[#1B3022] leading-relaxed max-w-2xl mx-auto text-center mb-16">
           Available for current clients. To get started, complete a
           meet-and-greet and book at least one pack walk. Both services
           include daily updates through our group chats.
@@ -26,16 +26,16 @@ export default function InHomeBoardingSection() {
             <h3 className="font-headline text-xl font-semibold text-[#1B3022]">
               Boarding
             </h3>
-            <p className="mt-3 text-[#333333]/80 leading-relaxed text-sm flex-1">
+            <p className="mt-3 text-[#1B3022] leading-relaxed text-sm flex-1">
               Your dog stays with one of our assigned handlers at their home and
               joins our daily pack walks for structure, exercise, and
               socialization.
             </p>
             <div className="mt-6">
               <p className="font-headline text-lg font-semibold text-[#1B3022]">
-                $100<span className="text-sm font-body text-[#333333]/60">/night</span>
+                $100<span className="text-sm font-body text-[#1B3022]">/night</span>
               </p>
-              <p className="text-sm text-[#333333]/60 mt-1">
+              <p className="text-sm text-[#1B3022] mt-1">
                 +$50 per additional dog
               </p>
             </div>
@@ -52,16 +52,16 @@ export default function InHomeBoardingSection() {
             <h3 className="font-headline text-xl font-semibold text-[#1B3022]">
               House Sitting
             </h3>
-            <p className="mt-3 text-[#333333]/80 leading-relaxed text-sm flex-1">
+            <p className="mt-3 text-[#1B3022] leading-relaxed text-sm flex-1">
               A handler stays in your home overnight and during the day,
               maintaining your dog&apos;s routine while still including them in
               our pack walks.
             </p>
             <div className="mt-6">
               <p className="font-headline text-lg font-semibold text-[#1B3022]">
-                $150<span className="text-sm font-body text-[#333333]/60">/day</span>
+                $150<span className="text-sm font-body text-[#1B3022]">/day</span>
               </p>
-              <p className="text-sm text-[#333333]/60 mt-1">
+              <p className="text-sm text-[#1B3022] mt-1">
                 +$50 per additional dog
               </p>
             </div>
@@ -75,13 +75,13 @@ export default function InHomeBoardingSection() {
             <h3 className="font-headline text-xl font-semibold text-[#1B3022]">
               Drop-in Visits
             </h3>
-            <p className="mt-3 text-[#333333]/80 leading-relaxed text-sm flex-1">
+            <p className="mt-3 text-[#1B3022] leading-relaxed text-sm flex-1">
               Quick check-ins for feeding, potty breaks, and companionship
               when you&apos;re away for shorter stretches. Great for puppies,
               seniors, or dogs in heat who can&apos;t join pack walks.
             </p>
             <p className="mt-6 font-headline text-lg font-semibold text-[#1B3022]">
-              $35<span className="text-sm font-body text-[#333333]/60">/visit</span>
+              $35<span className="text-sm font-body text-[#1B3022]">/visit</span>
             </p>
           </div>
         </div>

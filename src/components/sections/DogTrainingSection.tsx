@@ -24,7 +24,7 @@ export default function DogTrainingSection() {
           <h2 className="font-headline text-4xl md:text-5xl font-bold text-[#1B3022] leading-tight">
             1-on-1 Dog Training
           </h2>
-          <p className="mt-6 text-xl text-[#1B3022]/80 leading-relaxed">
+          <p className="mt-6 text-xl text-[#1B3022] leading-relaxed">
             Personalized sessions tailored to your dog&apos;s unique behavioral
             needs, from basic obedience to advanced rehabilitation. Our
             balanced training philosophy combines positive reinforcement with
@@ -41,7 +41,7 @@ export default function DogTrainingSection() {
                 <p className="font-headline text-xl font-bold text-[#1B3022]">
                   Leash Manners &amp; Public Etiquette
                 </p>
-                <p className="text-lg text-[#1B3022]/70 mt-1">
+                <p className="text-lg text-[#1B3022] mt-1">
                   Building calm, controlled behavior in real-world settings
                 </p>
               </div>
@@ -54,7 +54,7 @@ export default function DogTrainingSection() {
                 <p className="font-headline text-xl font-bold text-[#1B3022]">
                   Behavioral Rehabilitation
                 </p>
-                <p className="text-lg text-[#1B3022]/70 mt-1">
+                <p className="text-lg text-[#1B3022] mt-1">
                   Addressing reactivity, anxiety, and fear-based behaviors
                 </p>
               </div>
@@ -67,7 +67,7 @@ export default function DogTrainingSection() {
                 <p className="font-headline text-xl font-bold text-[#1B3022]">
                   Pack Preparation
                 </p>
-                <p className="text-lg text-[#1B3022]/70 mt-1">
+                <p className="text-lg text-[#1B3022] mt-1">
                   Solo sessions before transitioning into structured group walks
                 </p>
               </div>

@@ -17,7 +17,7 @@ export default function Footer() {
               The Gentleman&apos;s Paw
             </span>
           </div>
-          <p className="text-[#F9F6F0]/60 max-w-xs font-body">
+          <p className="text-[#F9F6F0] max-w-xs font-body">
             Excellence in canine behavior and social structure. Elevating the
             standard of care for Santa Clara&apos;s dogs.
           </p>
@@ -31,7 +31,7 @@ export default function Footer() {
             <li>
               <a
                 href="#about"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 About
               </a>
@@ -39,7 +39,7 @@ export default function Footer() {
             <li>
               <a
                 href="#pack-walks"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 Pack Walks
               </a>
@@ -47,7 +47,7 @@ export default function Footer() {
             <li>
               <a
                 href="#pricing"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 Pricing
               </a>
@@ -55,7 +55,7 @@ export default function Footer() {
             <li>
               <a
                 href="#faq"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 FAQ
               </a>
@@ -71,7 +71,7 @@ export default function Footer() {
             <li>
               <a
                 href="mailto:concierge@gentlemanspaw.com"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 Join the Pack
               </a>
@@ -79,7 +79,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 Instagram
               </a>
@@ -87,7 +87,7 @@ export default function Footer() {
             <li>
               <a
                 href="#"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 LinkedIn
               </a>
@@ -95,7 +95,7 @@ export default function Footer() {
             <li>
               <a
                 href="#team"
-                className="text-[#F9F6F0]/60 hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
+                className="text-[#F9F6F0] hover:text-[#F9F6F0] transition-colors hover:translate-x-1 duration-300 inline-block"
               >
                 Our Team
               </a>
@@ -107,7 +107,7 @@ export default function Footer() {
           <h5 className="text-[#C5A059] font-bold uppercase tracking-widest text-xs mb-6">
             Location
           </h5>
-          <p className="text-[#F9F6F0]/60 leading-relaxed font-body">
+          <p className="text-[#F9F6F0] leading-relaxed font-body">
             Serving Los Gatos, Saratoga,
             <br />
             and South San Jose regions of
@@ -123,7 +123,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-20 px-6 md:px-12 max-w-screen-2xl mx-auto pt-8 border-t border-white/10 text-center md:text-left">
-        <p className="text-[#F9F6F0]/40 text-xs uppercase tracking-widest font-body">
+        <p className="text-[#F9F6F0] text-xs uppercase tracking-widest font-body">
           &copy; {new Date().getFullYear()} The Gentleman&apos;s Paw. Serving
           Santa Clara County.
         </p>

@@ -45,7 +45,7 @@ export default function PackWalksSection() {
             <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl font-bold text-[#1B3022] leading-tight">
               The Daily Pack Expedition
             </h2>
-            <p className="mt-6 text-lg text-[#333333]/80 leading-relaxed max-w-xl">
+            <p className="mt-6 text-lg text-[#1B3022] leading-relaxed max-w-xl">
               Every expedition is a carefully orchestrated blend of exercise,
               socialization, and real-world training. Your dog will explore
               varied terrain alongside a balanced pack, guided by an
@@ -62,7 +62,7 @@ export default function PackWalksSection() {
                   <p className="font-headline text-xl font-semibold text-[#1B3022]">
                     1hr+ Activity
                   </p>
-                  <p className="text-base text-[#333333]/70 mt-1">
+                  <p className="text-base text-[#1B3022] mt-1">
                     Plus door-to-door transit
                   </p>
                 </div>
@@ -75,7 +75,7 @@ export default function PackWalksSection() {
                   <p className="font-headline text-xl font-semibold text-[#1B3022]">
                     1.5 - 2.5 Miles
                   </p>
-                  <p className="text-base text-[#333333]/70 mt-1">
+                  <p className="text-base text-[#1B3022] mt-1">
                     Varied terrain trails
                   </p>
                 </div>
@@ -88,7 +88,7 @@ export default function PackWalksSection() {
                   <p className="font-headline text-xl font-semibold text-[#1B3022]">
                     Elite Small Group
                   </p>
-                  <p className="text-base text-[#333333]/70 mt-1">
+                  <p className="text-base text-[#1B3022] mt-1">
                     Max 10 dogs per handler
                   </p>
                 </div>
@@ -101,14 +101,14 @@ export default function PackWalksSection() {
                   <p className="font-headline text-xl font-semibold text-[#1B3022]">
                     Live Recaps
                   </p>
-                  <p className="text-base text-[#333333]/70 mt-1">
+                  <p className="text-base text-[#1B3022] mt-1">
                     Daily photos &amp; updates
                   </p>
                 </div>
               </div>
             </div>
 
-            <p className="mt-10 text-lg text-[#333333]/80 leading-relaxed max-w-xl">
+            <p className="mt-10 text-lg text-[#1B3022] leading-relaxed max-w-xl">
               Every walk includes a report card via our app, water, towel-down,
               and brush before returning home.
             </p>
@@ -177,7 +177,7 @@ export default function PackWalksSection() {
             <h3 className="font-headline text-3xl md:text-4xl font-bold text-[#1B3022] mb-4">
               Membership Pricing
             </h3>
-            <p className="text-lg text-[#333333]/80">
+            <p className="text-lg text-[#1B3022]">
               Single walk rate: <span className="font-headline font-bold text-[#1B3022]">$48</span> per walk. Save more with bundles below.
             </p>
           </div>
@@ -195,7 +195,7 @@ export default function PackWalksSection() {
                 </h4>
                 <div className="flex items-baseline gap-2 mb-1">
                   <span className="font-headline text-5xl font-bold text-[#1B3022]">$450</span>
-                  <span className="text-lg text-[#1B3022]/70">Total</span>
+                  <span className="text-lg text-[#1B3022]">Total</span>
                 </div>
                 <p className="text-xl text-[#C5A059] font-bold mb-8">($45 Per Walk)</p>
 
@@ -217,7 +217,7 @@ export default function PackWalksSection() {
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
                   <p className="font-headline text-3xl font-bold text-[#1B3022]">$280 <span className="text-lg font-body text-[#1B3022]">($28/Walk)</span></p>
-                  <p className="mt-2 text-base text-[#1B3022]/80 italic">Perfect for occasional walkers</p>
+                  <p className="mt-2 text-base text-[#1B3022] italic">Perfect for occasional walkers</p>
                 </div>
               </div>
 
@@ -231,7 +231,7 @@ export default function PackWalksSection() {
                 </h4>
                 <div className="flex items-baseline gap-2 mb-1">
                   <span className="font-headline text-5xl font-bold text-[#1B3022]">$800</span>
-                  <span className="text-lg text-[#1B3022]/70">Total</span>
+                  <span className="text-lg text-[#1B3022]">Total</span>
                 </div>
                 <p className="text-xl text-[#C5A059] font-bold mb-8">($40 Per Walk)</p>
 
@@ -253,7 +253,7 @@ export default function PackWalksSection() {
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
                   <p className="font-headline text-3xl font-bold text-[#1B3022]">$500 <span className="text-lg font-body text-[#1B3022]">($25/Walk)</span></p>
-                  <p className="mt-2 text-base text-[#1B3022]/80 italic">Great value for consistent walkers</p>
+                  <p className="mt-2 text-base text-[#1B3022] italic">Great value for consistent walkers</p>
                 </div>
               </div>
 
@@ -270,7 +270,7 @@ export default function PackWalksSection() {
                 </h4>
                 <div className="flex items-baseline gap-2 mb-1">
                   <span className="font-headline text-5xl font-bold text-[#1B3022]">$1,800</span>
-                  <span className="text-lg text-[#1B3022]/70">Total</span>
+                  <span className="text-lg text-[#1B3022]">Total</span>
                 </div>
                 <p className="text-xl text-[#C5A059] font-bold mb-8">($36 Per Walk)</p>
 
@@ -308,14 +308,14 @@ export default function PackWalksSection() {
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
                   <p className="font-headline text-3xl font-bold text-[#1B3022]">$1,125 <span className="text-lg font-body text-[#1B3022]">($22.50/Walk)</span></p>
-                  <p className="mt-2 text-base text-[#1B3022]/80 italic">Ultimate VIP experience</p>
+                  <p className="mt-2 text-base text-[#1B3022] italic">Ultimate VIP experience</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Payment Info */}
-          <div className="mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-base text-[#1B3022]/70">
+          <div className="mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-base text-[#1B3022]">
             <p>All bundles require payment upfront at time of order.</p>
             <div className="flex items-center gap-4 flex-wrap">
               <span className="text-xs font-bold uppercase tracking-widest text-[#C5A059]">Accepted:</span>

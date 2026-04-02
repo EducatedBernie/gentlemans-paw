@@ -52,7 +52,7 @@ export default function AboutSection() {
           <h3 className="font-headline text-3xl md:text-4xl text-[#1B3022] mb-6">
             Why Pack Walks Work
           </h3>
-          <p className="text-[#333333]/80 leading-relaxed max-w-2xl mb-16 text-xl">
+          <p className="text-[#1B3022] leading-relaxed max-w-2xl mb-16 text-xl">
             We believe balanced dogs are created through structured exercise,
             clear communication, and calm leadership. Our pack walks meet both
             the physical and mental needs of dogs while reinforcing behaviors
@@ -67,7 +67,7 @@ export default function AboutSection() {
                 <h4 className="font-headline text-xl text-[#1B3022] mb-4">
                   {item.title}
                 </h4>
-                <p className="text-[#333333]/70 leading-relaxed text-base">
+                <p className="text-[#1B3022] leading-relaxed text-base">
                   {item.description}
                 </p>
               </div>

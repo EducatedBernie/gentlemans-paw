@@ -86,7 +86,7 @@ export default function SideNav() {
                 className={`w-full text-left px-5 py-3 rounded-lg text-base font-body transition-all duration-200 ${
                   activeSection === section.id
                     ? "text-[#C5A059] font-bold bg-[#C5A059]/10 border-l-[3px] border-[#C5A059]"
-                    : "text-[#1B3022]/70 hover:text-[#1B3022] hover:bg-[#f0ede7] font-medium"
+                    : "text-[#1B3022] hover:text-[#1B3022] hover:bg-[#f0ede7] font-medium"
                 }`}
               >
                 {section.label}

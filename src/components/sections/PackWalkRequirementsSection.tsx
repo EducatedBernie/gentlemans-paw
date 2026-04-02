@@ -57,7 +57,7 @@ export default function PackWalkRequirementsSection() {
         <h2 className="font-headline text-3xl md:text-4xl font-bold text-[#F9F6F0] mb-6">
           Pack Walk Requirements
         </h2>
-        <p className="text-lg text-[#F9F6F0]/70 leading-relaxed max-w-2xl mb-16">
+        <p className="text-lg text-[#F9F6F0] leading-relaxed max-w-2xl mb-16">
           To ensure a safe, balanced, and enjoyable experience for every dog, we
           have a few requirements before joining The Gentleman&apos;s Paw pack.
         </p>
@@ -97,7 +97,7 @@ export default function PackWalkRequirementsSection() {
 
         {/* CTA */}
         <div className="mt-16 text-center">
-          <p className="text-[#F9F6F0]/70 mb-4">
+          <p className="text-[#F9F6F0] mb-4">
             Ready to get started? Fill out our Interest Form and we&apos;ll
             schedule your dog&apos;s meet-and-greet evaluation.
           </p>
