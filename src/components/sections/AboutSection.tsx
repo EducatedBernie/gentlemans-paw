@@ -30,13 +30,10 @@ export default function AboutSection() {
     <section id="about" className="scroll-mt-16">
       {/* Header */}
       <div className="px-6 md:px-16 lg:px-24 pt-24 pb-20 max-w-7xl mx-auto">
-        <p className="text-sm font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-4">
+        <p className="text-lg font-semibold tracking-[0.2em] uppercase text-[#C5A059] mb-6">
           Our Story
         </p>
-        <h2 className="font-headline text-4xl md:text-5xl lg:text-6xl text-[#1B3022] leading-tight max-w-3xl">
-          Crafting Harmony Between Owner &amp; Dog
-        </h2>
-        <p className="mt-6 text-lg text-[#333333]/80 leading-relaxed max-w-3xl">
+        <p className="text-xl md:text-2xl text-[#333333] leading-relaxed max-w-4xl">
           The Gentleman&apos;s Paw is dedicated to building a strong,
           well-balanced dog community through structured group pack walks,
           fostering socialization, obedience, and behavior management making

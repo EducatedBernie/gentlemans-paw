@@ -41,7 +41,7 @@ export default function Home() {
                 Leashing manners, one walk at a time.
               </h1>
               <p className="mt-6 text-lg md:text-xl text-white/90 font-body">
-                Premium structured pack dog walking in Santa Clara County.
+                Premium structured dog walking in Santa Clara County.
               </p>
             </div>
           </section>
