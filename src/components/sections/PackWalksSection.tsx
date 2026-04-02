@@ -321,8 +321,19 @@ export default function PackWalksSection() {
             </div>
           </div>
 
+          {/* Fees Disclaimer */}
+          <div className="mt-10 bg-[#f0ede7] rounded-xl px-8 py-6 text-base text-[#1B3022] leading-relaxed">
+            <p className="font-bold mb-2">Please note:</p>
+            <ul className="space-y-1">
+              <li><strong>Late add fee:</strong> A fee applies for same-day or last-minute walk additions.</li>
+              <li><strong>Cancellation fee:</strong> Cancellations made with insufficient notice are subject to a penalty charge.</li>
+              <li><strong>All bundles</strong> require payment upfront at time of order.</li>
+            </ul>
+            <p className="mt-2 text-sm italic">VIP Elite Pack (50 walks) waives late add fees and cancellation fees.</p>
+          </div>
+
           {/* Payment Info */}
-          <div className="mt-10 flex items-center justify-center gap-4 flex-wrap text-base text-[#1B3022]">
+          <div className="mt-6 flex items-center justify-center gap-4 flex-wrap text-base text-[#1B3022]">
             <span className="text-sm font-bold uppercase tracking-widest text-[#C5A059]">Payments Accepted:</span>
             <span className="font-headline text-[#1B3022]">Venmo</span>
             <span className="text-[#1B3022]/20">|</span>
