@@ -95,21 +95,6 @@ export default function PackWalkRequirementsSection() {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="mt-16 text-center">
-          <p className="text-[#F9F6F0] mb-4">
-            Ready to get started? Fill out our Interest Form and we&apos;ll
-            schedule your dog&apos;s meet-and-greet evaluation.
-          </p>
-          <a
-            href="https://forms.gle/LdQkrDTF2bVGQJVt6"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#C5A059] hover:bg-[#d4b06a] text-white font-semibold tracking-widest uppercase px-10 py-4 rounded transition-colors"
-          >
-            Interest Form
-          </a>
-        </div>
       </div>
     </section>
   );
