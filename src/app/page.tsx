@@ -2,6 +2,7 @@ import Image from "next/image";
 import SideNav from "@/components/SideNav";
 import Footer from "@/components/Footer";
 import AboutSection from "@/components/sections/AboutSection";
+import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import PackWalksSection from "@/components/sections/PackWalksSection";
 import PackWalkRequirementsSection from "@/components/sections/PackWalkRequirementsSection";
 import DogTrainingSection from "@/components/sections/DogTrainingSection";
@@ -47,6 +48,7 @@ export default function Home() {
           </section>
 
           <AboutSection />
+          <HowItWorksSection />
           <PackWalksSection />
           <PackWalkRequirementsSection />
           <DogTrainingSection />
