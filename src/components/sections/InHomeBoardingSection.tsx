@@ -81,7 +81,7 @@ export default function InHomeBoardingSection() {
               seniors, or dogs in heat who can&apos;t join pack walks.
             </p>
             <p className="mt-6 font-headline text-3xl font-bold text-[#1B3022]">
-              $35<span className="text-lg font-body text-[#1B3022]">/visit</span>
+              $40<span className="text-lg font-body text-[#1B3022]">/visit</span>
             </p>
           </div>
         </div>
