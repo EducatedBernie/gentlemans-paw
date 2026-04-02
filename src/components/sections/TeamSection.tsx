@@ -76,7 +76,7 @@ export default function TeamSection() {
             <h2 className="font-headline text-3xl md:text-4xl text-[#1B3022] mb-8">
               How It All Started
             </h2>
-            <div className="space-y-6 text-[#333333] leading-relaxed">
+            <div className="space-y-6 text-[#1B3022] leading-relaxed text-lg">
               <p>
                 Like many dog owners, I grew up in a home where life was busy.
                 My single mom worked hard, and although we loved our dog deeply,
@@ -106,7 +106,7 @@ export default function TeamSection() {
                 dogs release energy, build confidence, and return home relaxed
                 and fulfilled.
               </p>
-              <p className="font-headline text-[#1B3022] italic">
+              <p className="font-headline text-xl text-[#1B3022] italic">
                 Because when dogs get the movement and structure they need,
                 everyone enjoys a more peaceful home.
               </p>
@@ -134,13 +134,13 @@ export default function TeamSection() {
                   className="object-cover"
                 />
               </div>
-              <h4 className="font-headline text-xl text-[#1B3022]">
+              <h4 className="font-headline text-2xl font-semibold text-[#1B3022]">
                 {member.name}
               </h4>
-              <p className="text-sm font-medium text-[#C5A059] mt-1 mb-3">
+              <p className="text-lg font-semibold text-[#C5A059] mt-1 mb-3">
                 {member.title}
               </p>
-              <p className="text-[#333333] text-sm leading-relaxed">
+              <p className="text-[#1B3022] text-base leading-relaxed">
                 {member.description}
               </p>
             </div>
