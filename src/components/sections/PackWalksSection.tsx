@@ -108,10 +108,17 @@ export default function PackWalksSection() {
               </div>
             </div>
 
-            <p className="mt-10 text-lg text-[#1B3022] leading-relaxed max-w-xl">
-              Every walk includes a report card via our app, water, towel-down,
-              and brush before returning home.
-            </p>
+            {/* Price Callout */}
+            <div className="mt-10 bg-[#1B3022] rounded-xl px-8 py-6 max-w-md">
+              <div className="flex items-baseline gap-3">
+                <span className="font-headline text-5xl font-bold text-[#F9F6F0]">$48</span>
+                <span className="text-xl text-[#F9F6F0]">per walk</span>
+              </div>
+              <p className="mt-2 text-base text-[#F9F6F0]">
+                Includes report card via our app, water, towel-down, and brush
+                before returning home.
+              </p>
+            </div>
           </div>
 
           {/* Right: Rotating Gallery */}
@@ -178,7 +185,7 @@ export default function PackWalksSection() {
               Membership Pricing
             </h3>
             <p className="text-lg text-[#1B3022]">
-              Single walk rate: <span className="font-headline font-bold text-[#1B3022]">$48</span> per walk. Save more with bundles below.
+              Save more with bundles. All bundles require payment upfront.
             </p>
           </div>
 
@@ -315,18 +322,15 @@ export default function PackWalksSection() {
           </div>
 
           {/* Payment Info */}
-          <div className="mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-base text-[#1B3022]">
-            <p>All bundles require payment upfront at time of order.</p>
-            <div className="flex items-center gap-4 flex-wrap">
-              <span className="text-xs font-bold uppercase tracking-widest text-[#C5A059]">Accepted:</span>
-              <span className="font-headline text-[#1B3022]">Venmo</span>
-              <span className="text-[#1B3022]/20">|</span>
-              <span className="font-headline text-[#1B3022]">Zelle</span>
-              <span className="text-[#1B3022]/20">|</span>
-              <span className="font-headline text-[#1B3022]">PayPal</span>
-              <span className="text-[#1B3022]/20">|</span>
-              <span className="font-headline text-[#1B3022]">PetPocketBook</span>
-            </div>
+          <div className="mt-10 flex items-center justify-center gap-4 flex-wrap text-base text-[#1B3022]">
+            <span className="text-sm font-bold uppercase tracking-widest text-[#C5A059]">Payments Accepted:</span>
+            <span className="font-headline text-[#1B3022]">Venmo</span>
+            <span className="text-[#1B3022]/20">|</span>
+            <span className="font-headline text-[#1B3022]">Zelle</span>
+            <span className="text-[#1B3022]/20">|</span>
+            <span className="font-headline text-[#1B3022]">PayPal</span>
+            <span className="text-[#1B3022]/20">|</span>
+            <span className="font-headline text-[#1B3022]">PetPocketBook</span>
           </div>
         </div>
       </div>
