@@ -74,17 +74,6 @@ export default function AboutSection() {
             ))}
           </div>
 
-          {/* The Result */}
-          <div className="mt-20 border-t border-[#e0ddd7] pt-12 max-w-2xl">
-            <p className="text-[#333333] leading-relaxed text-lg">
-              When dogs receive structured exercise, leadership, and the support
-              of a balanced pack, they return home calmer, more focused, mentally
-              fulfilled, and easier to live with.
-            </p>
-            <p className="mt-4 font-headline text-lg text-[#C5A059] italic">
-              Because a well-walked dog isn&apos;t just tired. It&apos;s balanced.
-            </p>
-          </div>
         </div>
       </div>
     </section>
