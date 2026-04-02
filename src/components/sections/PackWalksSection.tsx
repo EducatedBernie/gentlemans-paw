@@ -197,14 +197,20 @@ export default function PackWalksSection() {
                 <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   Standard Pack
                 </p>
-                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">
-                  &mdash; 10 Walks &mdash;
+                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-4">
+                  10 Walks
                 </h4>
+
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="font-headline text-5xl font-bold text-[#1B3022]">$450</span>
-                  <span className="text-lg text-[#1B3022]">Total</span>
+                  <span className="font-headline text-4xl font-bold text-[#C5A059]">$45</span>
+                  <span className="text-lg text-[#1B3022]">per walk</span>
                 </div>
-                <p className="text-xl text-[#C5A059] font-bold mb-8">($45 Per Walk)</p>
+                <p className="text-lg font-semibold text-[#1B3022] mb-2">
+                  $450 total
+                </p>
+                <p className="text-base font-bold text-[#C5A059] mb-8">
+                  You save $30 vs single rate
+                </p>
 
                 <ul className="space-y-3 flex-1">
                   <li className="flex items-start gap-2 text-lg text-[#1B3022]">
@@ -223,24 +229,37 @@ export default function PackWalksSection() {
 
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
-                  <p className="font-headline text-3xl font-bold text-[#1B3022]">$280 <span className="text-lg font-body text-[#1B3022]">($28/Walk)</span></p>
+                  <div className="flex items-baseline gap-2 mb-1">
+                    <span className="font-headline text-3xl font-bold text-[#C5A059]">$28</span>
+                    <span className="text-lg text-[#1B3022]">per walk</span>
+                  </div>
+                  <p className="text-lg font-semibold text-[#1B3022]">$280 total</p>
                   <p className="mt-2 text-base text-[#1B3022] italic">Perfect for occasional walkers</p>
                 </div>
               </div>
 
               {/* Regular Pack */}
-              <div className="p-8 lg:p-10 flex flex-col">
+              <div className="p-8 lg:p-10 flex flex-col relative">
+                <span className="absolute top-4 right-4 bg-[#1B3022] text-[#F9F6F0] text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Popular
+                </span>
                 <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   Regular Pack
                 </p>
-                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">
-                  &mdash; 20 Walks &mdash;
+                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-4">
+                  20 Walks
                 </h4>
+
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="font-headline text-5xl font-bold text-[#1B3022]">$800</span>
-                  <span className="text-lg text-[#1B3022]">Total</span>
+                  <span className="font-headline text-4xl font-bold text-[#C5A059]">$40</span>
+                  <span className="text-lg text-[#1B3022]">per walk</span>
                 </div>
-                <p className="text-xl text-[#C5A059] font-bold mb-8">($40 Per Walk)</p>
+                <p className="text-lg font-semibold text-[#1B3022] mb-2">
+                  $800 total
+                </p>
+                <p className="text-base font-bold text-[#C5A059] mb-8">
+                  You save $160 vs single rate (17% off)
+                </p>
 
                 <ul className="space-y-3 flex-1">
                   <li className="flex items-start gap-2 text-lg text-[#1B3022]">
@@ -259,27 +278,37 @@ export default function PackWalksSection() {
 
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
-                  <p className="font-headline text-3xl font-bold text-[#1B3022]">$500 <span className="text-lg font-body text-[#1B3022]">($25/Walk)</span></p>
+                  <div className="flex items-baseline gap-2 mb-1">
+                    <span className="font-headline text-3xl font-bold text-[#C5A059]">$25</span>
+                    <span className="text-lg text-[#1B3022]">per walk</span>
+                  </div>
+                  <p className="text-lg font-semibold text-[#1B3022]">$500 total</p>
                   <p className="mt-2 text-base text-[#1B3022] italic">Great value for consistent walkers</p>
                 </div>
               </div>
 
               {/* VIP Elite Pack */}
               <div className="p-8 lg:p-10 flex flex-col relative">
-                <span className="absolute top-4 right-4 bg-[#C5A059] text-white text-sm font-bold uppercase tracking-wider px-4 py-1.5 rounded-full">
-                  VIP
+                <span className="absolute top-4 right-4 bg-[#C5A059] text-white text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full">
+                  Best Value
                 </span>
                 <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
                   VIP Elite Pack
                 </p>
-                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-2">
-                  &mdash; 50 Walks &mdash;
+                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-4">
+                  50 Walks
                 </h4>
+
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="font-headline text-5xl font-bold text-[#1B3022]">$1,800</span>
-                  <span className="text-lg text-[#1B3022]">Total</span>
+                  <span className="font-headline text-4xl font-bold text-[#C5A059]">$36</span>
+                  <span className="text-lg text-[#1B3022]">per walk</span>
                 </div>
-                <p className="text-xl text-[#C5A059] font-bold mb-8">($36 Per Walk)</p>
+                <p className="text-lg font-semibold text-[#1B3022] mb-2">
+                  $1,800 total
+                </p>
+                <p className="text-base font-bold text-[#C5A059] mb-8">
+                  You save $600 vs single rate (25% off)
+                </p>
 
                 <ul className="space-y-3 flex-1">
                   <li className="flex items-start gap-2 text-lg text-[#1B3022]">
@@ -292,29 +321,17 @@ export default function PackWalksSection() {
                   </li>
                   <li className="flex items-start gap-2 text-lg text-[#1B3022]">
                     <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>late</strong> fees</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
-                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>add</strong> fees</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
-                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>medication</strong> fees</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
-                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>feeding</strong> fees</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
-                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>cancellation</strong> fees</span>
+                    <span>We waive <strong>all fees</strong> (late, add, medication, feeding, cancellation)</span>
                   </li>
                 </ul>
 
                 <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
                   <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
-                  <p className="font-headline text-3xl font-bold text-[#1B3022]">$1,125 <span className="text-lg font-body text-[#1B3022]">($22.50/Walk)</span></p>
+                  <div className="flex items-baseline gap-2 mb-1">
+                    <span className="font-headline text-3xl font-bold text-[#C5A059]">$22.50</span>
+                    <span className="text-lg text-[#1B3022]">per walk</span>
+                  </div>
+                  <p className="text-lg font-semibold text-[#1B3022]">$1,125 total</p>
                   <p className="mt-2 text-base text-[#1B3022] italic">Ultimate VIP experience</p>
                 </div>
               </div>

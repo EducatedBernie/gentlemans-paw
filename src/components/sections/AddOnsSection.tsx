@@ -5,10 +5,17 @@
 const addOns = [
   {
     icon: "restaurant",
-    title: "Feeding / Medication",
+    title: "Feeding",
     price: "$5",
-    priceSuffix: "per feed",
-    description: "We\u2019ll feed your dog or administer medication. Charged per feed, not per day.",
+    priceSuffix: "per meal",
+    description: "We\u2019ll feed your dog during the visit. Charged per meal.",
+  },
+  {
+    icon: "medication",
+    title: "Medication",
+    price: "$5",
+    priceSuffix: "per administration",
+    description: "We\u2019ll administer your dog\u2019s medication. Charged each time it\u2019s given.",
   },
   {
     icon: "cleaning_services",
@@ -40,7 +47,7 @@ export default function AddOnsSection() {
           Available as extras on any walk, boarding stay, or drop-in visit.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {addOns.map((item) => (
             <div
               key={item.title}
