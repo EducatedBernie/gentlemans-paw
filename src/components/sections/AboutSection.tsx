@@ -61,13 +61,13 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {philosophyItems.map((item) => (
               <div key={item.title} className="flex flex-col">
-                <span className="material-symbols-outlined text-[#C5A059] text-4xl mb-6">
+                <span className="material-symbols-outlined text-[#C5A059] text-5xl mb-6">
                   {item.icon}
                 </span>
-                <h4 className="font-headline text-xl text-[#1B3022] mb-4">
+                <h4 className="font-headline text-2xl font-semibold text-[#1B3022] mb-4">
                   {item.title}
                 </h4>
-                <p className="text-[#1B3022] leading-relaxed text-base">
+                <p className="text-[#1B3022] leading-relaxed text-lg">
                   {item.description}
                 </p>
               </div>
