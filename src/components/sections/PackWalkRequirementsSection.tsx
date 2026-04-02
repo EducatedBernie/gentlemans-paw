@@ -81,9 +81,9 @@ export default function PackWalkRequirementsSection() {
                   return (
                     <li
                       key={i}
-                      className="text-[#F9F6F0]/60 text-sm leading-relaxed flex items-start gap-2"
+                      className="text-[#F9F6F0] text-base leading-relaxed flex items-start gap-2"
                     >
-                      <span className={`material-symbols-outlined text-base mt-0.5 shrink-0 ${excluded ? "text-red-400" : "text-[#C5A059]"}`}>
+                      <span className={`material-symbols-outlined text-xl mt-0.5 shrink-0 ${excluded ? "text-red-400" : "text-[#C5A059]"}`}>
                         {excluded ? "close" : "check"}
                       </span>
                       <span>{text}</span>
