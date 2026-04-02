@@ -7,25 +7,22 @@ const addOns = [
     icon: "restaurant",
     title: "Feeding / Medication",
     price: "$5",
-    description: "We\u2019ll feed your dog or administer medication during the visit.",
+    priceSuffix: "per feed",
+    description: "We\u2019ll feed your dog or administer medication. Charged per feed, not per day.",
   },
   {
     icon: "cleaning_services",
     title: "Touch-Up Clean",
     price: "$10",
+    priceSuffix: "",
     description: "Light cleanup if your dog has an accident in the house (pee).",
   },
   {
     icon: "mop",
-    title: "Big Clean",
+    title: "Deep Clean / Car Cleanup",
     price: "$25",
-    description: "Deep cleanup for bigger messes\u2014accidents, mud tracking, or vomit in the house.",
-  },
-  {
-    icon: "directions_car",
-    title: "Car Cleanup",
-    price: "$25",
-    description: "If your dog gets sick in the car during pickup or drop-off.",
+    priceSuffix: "",
+    description: "Bigger messes in the house or car\u2014vomit, mud tracking, or accidents during transport.",
   },
 ];
 
@@ -43,7 +40,7 @@ export default function AddOnsSection() {
           Available as extras on any walk, boarding stay, or drop-in visit.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {addOns.map((item) => (
             <div
               key={item.title}
@@ -60,6 +57,7 @@ export default function AddOnsSection() {
               </p>
               <p className="font-headline text-3xl font-bold text-[#1B3022]">
                 {item.price}
+                {item.priceSuffix && <span className="text-base font-body text-[#1B3022] ml-1">/{item.priceSuffix}</span>}
               </p>
             </div>
           ))}
