@@ -52,73 +52,72 @@ export default function PackWalksSection() {
               experienced handler who leads with calm authority.
             </p>
 
-            {/* Stats Grid */}
-            <div className="mt-10 grid grid-cols-2 gap-6">
-              <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-3xl text-[#C5A059] mt-0.5">
+            {/* Each Expedition Includes */}
+            <p className="mt-10 text-lg font-bold text-[#1B3022]">
+              Each expedition includes:
+            </p>
+            <div className="mt-4 flex flex-col gap-5">
+              <div className="flex items-start gap-5">
+                <span className="material-symbols-outlined text-4xl text-[#C5A059] shrink-0 w-10 text-center">
                   schedule
                 </span>
                 <div>
-                  <p className="font-headline text-xl font-semibold text-[#1B3022]">
+                  <p className="font-headline text-xl font-bold text-[#1B3022]">
                     1hr+ Activity
                   </p>
-                  <p className="text-base text-[#1B3022] mt-1">
+                  <p className="text-lg text-[#1B3022] mt-1">
                     Plus door-to-door transit
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-3xl text-[#C5A059] mt-0.5">
+              <div className="flex items-start gap-5">
+                <span className="material-symbols-outlined text-4xl text-[#C5A059] shrink-0 w-10 text-center">
                   distance
                 </span>
                 <div>
-                  <p className="font-headline text-xl font-semibold text-[#1B3022]">
+                  <p className="font-headline text-xl font-bold text-[#1B3022]">
                     1.5 - 2.5 Miles
                   </p>
-                  <p className="text-base text-[#1B3022] mt-1">
+                  <p className="text-lg text-[#1B3022] mt-1">
                     Varied terrain trails
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-3xl text-[#C5A059] mt-0.5">
+              <div className="flex items-start gap-5">
+                <span className="material-symbols-outlined text-4xl text-[#C5A059] shrink-0 w-10 text-center">
                   groups
                 </span>
                 <div>
-                  <p className="font-headline text-xl font-semibold text-[#1B3022]">
+                  <p className="font-headline text-xl font-bold text-[#1B3022]">
                     Elite Small Group
                   </p>
-                  <p className="text-base text-[#1B3022] mt-1">
+                  <p className="text-lg text-[#1B3022] mt-1">
                     Max 10 dogs per handler
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4">
-                <span className="material-symbols-outlined text-3xl text-[#C5A059] mt-0.5">
+              <div className="flex items-start gap-5">
+                <span className="material-symbols-outlined text-4xl text-[#C5A059] shrink-0 w-10 text-center">
                   photo_camera
                 </span>
                 <div>
-                  <p className="font-headline text-xl font-semibold text-[#1B3022]">
+                  <p className="font-headline text-xl font-bold text-[#1B3022]">
                     Live Recaps
                   </p>
-                  <p className="text-base text-[#1B3022] mt-1">
-                    Daily photos &amp; updates
+                  <p className="text-lg text-[#1B3022] mt-1">
+                    Daily photos &amp; walking report
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Price Callout */}
-            <div className="mt-10 bg-[#1B3022] rounded-xl px-8 py-6 max-w-md">
-              <div className="flex items-baseline gap-3">
-                <span className="font-headline text-5xl font-bold text-[#F9F6F0]">$48</span>
-                <span className="text-xl text-[#F9F6F0]">per walk</span>
-              </div>
-              <p className="mt-2 text-base text-[#F9F6F0]">
-                Includes report card via our app, water, towel-down, and brush
-                before returning home.
-              </p>
-            </div>
+            {/* Join the Pack CTA */}
+            <a
+              href="mailto:concierge@gentlemanspaw.com"
+              className="mt-10 inline-block bg-[#C5A059] hover:bg-[#d4b06a] text-white font-bold tracking-widest uppercase px-10 py-4 rounded transition-colors text-base"
+            >
+              Join the Pack
+            </a>
           </div>
 
           {/* Right: Rotating Gallery */}
@@ -191,7 +190,53 @@ export default function PackWalksSection() {
 
           {/* Bundle Comparison Card */}
           <div className="bg-[#F9F6F0] border border-[#e0ddd7] rounded-2xl overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#e0ddd7]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[#e0ddd7]">
+              {/* Drop-In / Single Walk */}
+              <div className="p-8 lg:p-10 flex flex-col">
+                <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
+                  Drop-In
+                </p>
+                <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-4">
+                  Single Walk
+                </h4>
+
+                <div className="flex items-baseline gap-2 mb-1">
+                  <span className="font-headline text-4xl font-bold text-[#C5A059]">$48</span>
+                  <span className="text-lg text-[#1B3022]">per walk</span>
+                </div>
+                <p className="text-lg font-semibold text-[#1B3022] mb-2">
+                  Pay as you go
+                </p>
+                <p className="text-base font-bold text-[#C5A059] mb-8">
+                  Any day, based on availability
+                </p>
+
+                <ul className="space-y-3 flex-1">
+                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
+                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
+                    <span>No commitment required</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
+                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
+                    <span>Full <strong>1-hour</strong> walk + transit</span>
+                  </li>
+                  <li className="flex items-start gap-2 text-lg text-[#1B3022]">
+                    <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
+                    <span>Report card after each walk</span>
+                  </li>
+                </ul>
+
+                <div className="mt-8 pt-6 border-t border-[#e0ddd7]">
+                  <p className="text-base font-bold uppercase tracking-widest text-[#C5A059] mb-2">Additional Dog</p>
+                  <div className="flex items-baseline gap-2 mb-1">
+                    <span className="font-headline text-3xl font-bold text-[#C5A059]">$48</span>
+                    <span className="text-lg text-[#1B3022]">per walk</span>
+                  </div>
+                  <p className="text-lg font-semibold text-[#1B3022]">Same rate per dog</p>
+                  <p className="mt-2 text-base text-[#1B3022] italic">Ideal for trying us out</p>
+                </div>
+              </div>
+
               {/* Standard Pack */}
               <div className="p-8 lg:p-10 flex flex-col">
                 <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
@@ -338,15 +383,20 @@ export default function PackWalksSection() {
             </div>
           </div>
 
-          {/* Fees Disclaimer */}
+          {/* Membership Billing */}
           <div className="mt-10 bg-[#f0ede7] rounded-xl px-8 py-6 text-base text-[#1B3022] leading-relaxed">
-            <p className="font-bold mb-2">Please note:</p>
-            <ul className="space-y-1">
-              <li><strong>Late add fee:</strong> A fee applies for same-day or last-minute walk additions.</li>
-              <li><strong>Cancellation fee:</strong> Cancellations made with insufficient notice are subject to a penalty charge.</li>
-              <li><strong>All bundles</strong> require payment upfront at time of order.</li>
-            </ul>
-            <p className="mt-2 text-sm italic">VIP Elite Pack (50 walks) waives late add fees and cancellation fees.</p>
+            <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-3">
+              Membership Billing
+            </p>
+            <p className="text-lg leading-relaxed">
+              Drop-in and walks scheduled on a non-membership basis will be billed weekly.
+              Membership billing occurs monthly and will recur/continue until you notify us
+              to discontinue.
+            </p>
+            <p className="text-lg leading-relaxed mt-3">
+              In-home behavior assessments are required for all new pack members.
+              A 24-hour cancellation notice is required to qualify for a valid walk replacement session.
+            </p>
           </div>
 
           {/* Payment Info */}

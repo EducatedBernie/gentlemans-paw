@@ -51,10 +51,10 @@ export default function Home() {
           <AboutSection />
           <HowItWorksSection />
           <PackWalksSection />
+          <AddOnsSection />
           <PackWalkRequirementsSection />
           <DogTrainingSection />
           <InHomeBoardingSection />
-          <AddOnsSection />
           <FAQSection />
           <TeamSection />
         </main>
