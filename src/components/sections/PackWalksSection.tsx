@@ -191,13 +191,13 @@ export default function PackWalksSection() {
           {/* Bundle Comparison Card */}
           <div className="bg-[#F9F6F0] border border-[#e0ddd7] rounded-2xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[#e0ddd7]">
-              {/* Drop-In / Single Walk */}
+              {/* Single Walk */}
               <div className="p-8 lg:p-10 flex flex-col">
                 <p className="text-xl font-bold uppercase tracking-widest text-[#C5A059] mb-2">
-                  Drop-In
+                  Single Walk
                 </p>
                 <h4 className="font-headline text-2xl md:text-3xl font-bold text-[#1B3022] mb-4">
-                  Single Walk
+                  Pay As You Go
                 </h4>
 
                 <div className="flex items-baseline gap-2 mb-1">
@@ -205,7 +205,7 @@ export default function PackWalksSection() {
                   <span className="text-lg text-[#1B3022]">per walk</span>
                 </div>
                 <p className="text-lg font-semibold text-[#1B3022] mb-2">
-                  Pay as you go
+                  Billed weekly
                 </p>
                 <p className="text-base font-bold text-[#C5A059] mb-8">
                   Any day, based on availability
