@@ -6,7 +6,6 @@ import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import PackWalksSection from "@/components/sections/PackWalksSection";
 import PackWalkRequirementsSection from "@/components/sections/PackWalkRequirementsSection";
 import DogTrainingSection from "@/components/sections/DogTrainingSection";
-import InHomeBoardingSection from "@/components/sections/InHomeBoardingSection";
 import AddOnsSection from "@/components/sections/AddOnsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import TeamSection from "@/components/sections/TeamSection";
@@ -54,7 +53,6 @@ export default function Home() {
           <AddOnsSection />
           <PackWalkRequirementsSection />
           <DogTrainingSection />
-          <InHomeBoardingSection />
           <FAQSection />
           <TeamSection />
         </main>

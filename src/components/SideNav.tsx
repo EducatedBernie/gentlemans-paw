@@ -7,9 +7,9 @@ const sections = [
   { id: "about", label: "About" },
   { id: "how-it-works", label: "How It Works" },
   { id: "pack-walks", label: "Pack Walks & Pricing" },
+  { id: "add-ons", label: "Services & Fees" },
   { id: "requirements", label: "Requirements" },
   { id: "dog-training", label: "Dog Training" },
-  { id: "boarding", label: "In Home Boarding" },
   { id: "faq", label: "FAQ" },
   { id: "team", label: "Our Team" },
 ];

@@ -366,7 +366,7 @@ export default function PackWalksSection() {
                   </li>
                   <li className="flex items-start gap-2 text-lg text-[#1B3022]">
                     <span className="material-symbols-outlined text-[#C5A059] text-xl mt-0.5 shrink-0">check</span>
-                    <span>We waive <strong>all fees</strong> (late, add, medication, feeding, cancellation)</span>
+                    <span><strong>All fees waived</strong> — late add, cancellation, medication, feeding, and cleaning fees included (up to $300+ in annual savings)</span>
                   </li>
                 </ul>
 
@@ -396,6 +396,10 @@ export default function PackWalksSection() {
             <p className="text-lg leading-relaxed mt-3">
               In-home behavior assessments are required for all new pack members.
               A 24-hour cancellation notice is required to qualify for a valid walk replacement session.
+            </p>
+            <p className="text-lg leading-relaxed mt-3 italic">
+              VIP Elite members enjoy unlimited fee waivers with a fair use policy of up to 5 cancellations per billing period.
+              Cancellations beyond this limit are subject to standard cancellation fees.
             </p>
           </div>
 
